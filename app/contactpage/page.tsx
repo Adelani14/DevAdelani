@@ -223,19 +223,19 @@ export default function Page() {
                             <div className="space-y-3">
                                 {/* Email */}
                                 <a
-                                    href="mailto:hello@devportfolio.com"
+                                    href="mailto:abdulsemiusodeeq14@gmail.com"
                                     className="flex items-center justify-between p-3.5 bg-[#101a2e]/60 hover:bg-[#14223d] border border-slate-800 rounded-xl group transition-all text-sm"
                                 >
                                     <div className="flex items-center gap-3 text-slate-200">
                                         <Mail size={18} className="text-blue-400" />
-                                        <span>hello@devportfolio.com</span>
+                                        <span>abdulsemiusodeeq14@gmail.com</span>
                                     </div>
                                     <ArrowRight size={16} className="text-slate-500 group-hover:text-blue-400 group-hover:translate-x-1 transition-all" />
                                 </a>
 
                                 {/* WhatsApp Support */}
                                 <a
-                                    href="#whatsapp"
+                                    href="https://wa.me/2349163735928"
                                     className="flex items-center justify-between p-3.5 bg-[#101a2e]/60 hover:bg-[#14223d] border border-slate-800 rounded-xl group transition-all text-sm"
                                 >
                                     <div className="flex items-center gap-3 text-slate-200">
@@ -247,7 +247,7 @@ export default function Page() {
 
                                 {/* LinkedIn Profile */}
                                 <a
-                                    href="#linkedin"
+                                    href="https://www.linkedin.com/in/abdulsemiu-sodeeq-adelani-209330345"
                                     className="flex items-center justify-between p-3.5 bg-[#101a2e]/60 hover:bg-[#14223d] border border-slate-800 rounded-xl group transition-all text-sm"
                                 >
                                     <div className="flex items-center gap-3 text-slate-200">
@@ -259,7 +259,7 @@ export default function Page() {
 
                                 {/* GitHub Repositories */}
                                 <a
-                                    href="#github"
+                                    href="https://github.com/DevAdelani"
                                     className="flex items-center justify-between p-3.5 bg-[#101a2e]/60 hover:bg-[#14223d] border border-slate-800 rounded-xl group transition-all text-sm"
                                 >
                                     <div className="flex items-center gap-3 text-slate-200">

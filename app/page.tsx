@@ -64,7 +64,7 @@ export default function Page() {
 
                 <div className="flex flex-wrap gap-4 pt-4">
                   <a
-                    href="/resume/ABDULSEMIU_SODEEQ_ADELANI_junior_FullStack_developer__CV.pdf"
+                    href="/resume/ABDULSEMIU_SODEEQ_ADELANI_Junior_FullStack_developer_CV.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-300 hover:bg-blue-200 text-slate-900 font-mono text-sm px-6 py-3 rounded-lg font-medium transition-all"

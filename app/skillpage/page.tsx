@@ -160,10 +160,10 @@ export default function Page() {
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
                                     <span className="text-sm font-bold text-white">React & Next.js</span>
-                                    <span className="text-xs font-mono text-blue-300">96%</span>
+                                    <span className="text-xs font-mono text-blue-300">80%</span>
                                 </div>
                                 <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-blue-400 rounded-full w-[96%]"></div>
+                                    <div className="h-full bg-blue-400 rounded-full w-[80%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
                                     SSR, ISR, Server Components, State Management (Zustand/Redux)
@@ -173,11 +173,11 @@ export default function Page() {
                             {/* Skill 2 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">TypeScript</span>
-                                    <span className="text-xs font-mono text-blue-300">94%</span>
+                                    <span className="text-sm font-bold text-white">JavaScript & TypeScript</span>
+                                    <span className="text-xs font-mono text-blue-300">84%</span>
                                 </div>
                                 <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-blue-400 rounded-full w-[94%]"></div>
+                                    <div className="h-full bg-blue-400 rounded-full w-[84%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
                                     Advanced Typing, Utility Types, Generic Patterns, Module Systems
@@ -187,11 +187,11 @@ export default function Page() {
                             {/* Skill 3 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">Tailwind & Framer Motion</span>
-                                    <span className="text-xs font-mono text-blue-300">98%</span>
+                                    <span className="text-sm font-bold text-white">Tailwind & Bootstrap</span>
+                                    <span className="text-xs font-mono text-blue-300">88%</span>
                                 </div>
                                 <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-blue-400 rounded-full w-[98%]"></div>
+                                    <div className="h-full bg-blue-400 rounded-full w-[88%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
                                     Utility-first Design, Complex Animations, Responsive Fluid Grids
@@ -216,39 +216,39 @@ export default function Page() {
                             {/* Skill 1 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">Node.js & Go</span>
-                                    <span className="text-xs font-mono text-purple-300">92%</span>
+                                    <span className="text-sm font-bold text-white">Node.js & Express.js</span>
+                                    <span className="text-xs font-mono text-purple-300">72%</span>
                                 </div>
                                 <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-purple-400 rounded-full w-[92%]"></div>
+                                    <div className="h-full bg-purple-400 rounded-full w-[72%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
-                                    Event-driven, Microservices, Concurrency, gRPC, RESTful APIs
+                                    Event-driven, Microservices, Concurrency, RESTful APIs
                                 </p>
                             </div>
 
                             {/* Skill 2 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">PostgreSQL & MongoDB</span>
+                                    <span className="text-sm font-bold text-white">MongoDB</span>
                                     <span className="text-xs font-mono text-purple-300">90%</span>
                                 </div>
                                 <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
                                     <div className="h-full bg-purple-400 rounded-full w-[90%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
-                                    ORM/ODM, Query Optimization, Schema Design, Data Sharding
+                                    Query Optimization, Schema Design, Data Sharding
                                 </p>
                             </div>
 
                             {/* Skill 3 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">Redis & RabbitMQ</span>
-                                    <span className="text-xs font-mono text-purple-300">85%</span>
+                                    <span className="text-sm font-bold text-white">Redis</span>
+                                    <span className="text-xs font-mono text-purple-300">75%</span>
                                 </div>
                                 <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-purple-400 rounded-full w-[85%]"></div>
+                                    <div className="h-full bg-purple-400 rounded-full w-[75%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
                                     Caching Strategies, Message Queues, Real-time WebSockets
@@ -258,7 +258,7 @@ export default function Page() {
                     </div>
 
                     {/* Card 3: Cloud & Infrastructure */}
-                    <div className="bg-[#0a1220]/70 border-l-2 border-l-cyan-400 border-t border-r border-b border-slate-800/80 rounded-2xl p-6 sm:p-8 space-y-6">
+                    {/* <div className="bg-[#0a1220]/70 border-l-2 border-l-cyan-400 border-t border-r border-b border-slate-800/80 rounded-2xl p-6 sm:p-8 space-y-6">
                         <div className="flex items-center gap-4">
                             <div className="p-3 rounded-xl bg-slate-800/60 text-cyan-300 border border-slate-700/50">
                                 <Cloud size={22} />
@@ -270,7 +270,6 @@ export default function Page() {
                         </div>
 
                         <div className="space-y-6 pt-2">
-                            {/* Skill 1 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
                                     <span className="text-sm font-bold text-white">Docker & Kubernetes</span>
@@ -284,7 +283,6 @@ export default function Page() {
                                 </p>
                             </div>
 
-                            {/* Skill 2 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
                                     <span className="text-sm font-bold text-white">AWS & GCP</span>
@@ -298,7 +296,6 @@ export default function Page() {
                                 </p>
                             </div>
 
-                            {/* Skill 3 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
                                     <span className="text-sm font-bold text-white">Terraform & Ansible</span>
@@ -312,7 +309,7 @@ export default function Page() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Card 4: Workflow & Tools */}
                     <div className="bg-[#0a1220]/70 border-l-2 border-l-[#c7d2fe] border-t border-r border-b border-slate-800/80 rounded-2xl p-6 sm:p-8 space-y-6">
@@ -373,8 +370,7 @@ export default function Page() {
 
                 </section>
 
-                {/* Section 3: Continuous Learning Cards */}
-                <section className="space-y-10">
+                {/* <section className="space-y-10">
                     <div className="text-center space-y-2">
                         <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
                             Continuous Learning
@@ -386,7 +382,6 @@ export default function Page() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-                        {/* Learning Card 1 */}
                         <div className="bg-[#0a1220]/70 border border-slate-800/80 rounded-2xl overflow-hidden shadow-xl hover:border-slate-700 transition-all group">
                             <div className="h-44 overflow-hidden relative bg-slate-900 border-b border-slate-800/80">
                                 <img
@@ -407,7 +402,6 @@ export default function Page() {
                             </div>
                         </div>
 
-                        {/* Learning Card 2 */}
                         <div className="bg-[#0a1220]/70 border border-slate-800/80 rounded-2xl overflow-hidden shadow-xl hover:border-slate-700 transition-all group">
                             <div className="h-44 overflow-hidden relative bg-slate-900 border-b border-slate-800/80">
                                 <img
@@ -428,7 +422,6 @@ export default function Page() {
                             </div>
                         </div>
 
-                        {/* Learning Card 3 */}
                         <div className="bg-[#0a1220]/70 border border-slate-800/80 rounded-2xl overflow-hidden shadow-xl hover:border-slate-700 transition-all group">
                             <div className="h-44 overflow-hidden relative bg-slate-900 border-b border-slate-800/80">
                                 <img
@@ -450,7 +443,7 @@ export default function Page() {
                         </div>
 
                     </div>
-                </section>
+                </section> */}
 
             </main>
 

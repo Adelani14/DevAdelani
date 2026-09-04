@@ -12,7 +12,7 @@ export default function Header() {
     return (
         <header className="sticky top-0 z-50 bg-[#050a12]/80 backdrop-blur-md border-b border-slate-800/60">
 
-            <div className="px-6 lg:px-16 py-1 flex items-center justify-between">
+            <div className="px-6 lg:px-16 py-4 flex items-center justify-between">
 
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2">
@@ -48,7 +48,7 @@ export default function Header() {
                 <div className="flex items-center gap-3">
 
                     <a
-                        href="/resume/ABDULSEMIU_SODEEQ_ADELANI_junior_FullStack_developer__CV.pdf"
+                        href="/resume/ABDULSEMIU_SODEEQ_ADELANI_Junior_FullStack_developer_CV.pdf"
                         download
                         className="hidden sm:block bg-[#93c5fd] hover:bg-blue-300 text-slate-950 font-mono font-semibold px-5 py-2 rounded-lg text-sm transition-all shadow-lg shadow-blue-500/20"
                     >
