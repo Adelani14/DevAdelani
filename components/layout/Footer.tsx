@@ -13,8 +13,9 @@ export default function Footer() {
                 <nav className="flex flex-wrap justify-center gap-8 font-mono text-xs text-slate-400">
                     <a href="/aboutpage" className="hover:text-white transition-colors">About</a>
                     <a href="/projectpage" className="hover:text-white transition-colors">Projects</a>
+                    <a href="/contactpage" className="hover:text-white transition-colors">Contact Me</a>
                     {/* <a href="/experiencepage" className="hover:text-white transition-colors">Experience</a> */}
-                    <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+                    {/* <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a> */}
                 </nav>
             </div>
         </footer>

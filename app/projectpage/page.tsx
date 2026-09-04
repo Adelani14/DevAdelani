@@ -27,7 +27,7 @@ export default function Page() {
             title: 'Community Issue Reporting System',
             category: 'Full-Stack',
             description: 'This is a platform that allows citizens to report community issues such as potholes, waste management problems, and broken infrastructure.',
-            image: 'https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788431773/Screenshot_2026-09-03_033550_e68x4z.png',
+            image: 'https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788518401/community-img_jfrsvb.jpg',
             tags: ['React.js', 'Bootstrap', 'Node.js', 'Express.js', 'MongoDB'],
             primaryBtn: { text: 'Live Demo', icon: <Rocket size={15} />, href: 'https://communityissuereportsystem.vercel.app/' },
             secondaryBtn: { text: 'Code', icon: <Code2 size={15} />, href: 'https://github.com/Adelani14/Community_issue_report_system' }
@@ -37,21 +37,21 @@ export default function Page() {
             title: 'Mutpel Household Store',
             category: 'Full-Stack',
             description: 'A modern and responsive e-commerce web application built to deliver a seamless online shopping experience. This platform allows users to browse products, view detailed information, add items to their cart, and manage purchases efficiently.',
-            image: 'https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788431318/Screenshot_2026-09-02_050837_endm6i.png',
+            image: 'https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788518392/mutpelimg_gl6cgp.jpg',
             tags: ['React.js', 'Bootstrap', 'Node.js', 'Express.js', 'MongoDB'],
             primaryBtn: { text: 'Live Demo', icon: <Eye size={15} />, href: 'https://mutpel-store.vercel.app/' },
             secondaryBtn: { text: 'Code', icon: <Code2 size={15} />, href: 'https://github.com/Adelani14/Mutpel_Store' }
         },
-        // {
-        //     id: 3,
-        //     title: 'Nexus API Gateway',
-        //     category: 'Backend',
-        //     description: 'Built a robust, horizontally scalable microservices orchestrator capable of handling 50k concurrent requests per second.',
-        //     image: 'https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788431773/Screenshot_2026-09-03_033509_dgocib.png',
-        //     tags: ['Node.js', 'Redis', 'Kubernetes', 'Go'],
-        //     primaryBtn: { text: 'Docs', icon: <FileText size={15} />, href: '#' },
-        //     secondaryBtn: { text: 'Code', icon: <Code2 size={15} />, href: '#' }
-        // },
+         {
+             id: 3,
+             title: 'DevAdelani portfolio',
+             category: 'Frontend',
+             description: 'A sleek and modern personal portfolio website built with Next.js, TypeScript, and Tailwind CSS. It showcases my projects, skills, and experience in a visually appealing and responsive design.',
+             image: 'https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788518392/devportimg_sgog7y.jpg',
+             tags: ['Next.js', 'TypeScript', 'Tailwind CSS' ],
+             primaryBtn: { text: 'Live Demo', icon: <FileText size={15} />, href: 'https://devadelani.com.ng' },
+             secondaryBtn: { text: 'Code', icon: <Code2 size={15} />, href: 'https://github.com/Adelani14/DevAdelani' }
+         },
         // {
         //     id: 4,
         //     title: 'DeployCraft CLI',

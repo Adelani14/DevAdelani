@@ -91,13 +91,13 @@ export default function Page() {
                 {/* Contact Hero Title Header */}
                 <section className="space-y-4 max-w-2xl">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
-                        Let's Build Something<br />
+                        Have an Idea? <br />
                         <span className="bg-gradient-to-r from-blue-300 to-indigo-400 bg-clip-text text-transparent">
-                            Great Together
+                            Let’s Build It Together. 
                         </span>
                     </h1>
                     <p className="text-slate-400 text-base leading-relaxed">
-                        Ready to transform your ideas into robust, scalable applications? Whether you have a specific project in mind or just want to explore possibilities, I'm here to help you navigate the digital landscape.
+                       Every great product starts with an idea. Whether you have a project ready to build or simply an idea you’d like to explore, let’s turn it into something real. I’m always interested in solving new problems, learning through challenging projects, and creating digital experiences that people can actually use.
                     </p>
                 </section>
 
@@ -210,7 +210,7 @@ export default function Page() {
                             </span>
                             <div className="flex items-center gap-3 pt-1">
                                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
-                                <h3 className="text-xl font-bold text-white">Available for Q3 projects</h3>
+                                <h3 className="text-xl font-bold text-white">Open to New Opportunities</h3>
                             </div>
                         </div>
 

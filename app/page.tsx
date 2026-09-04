@@ -295,7 +295,7 @@ export default function Page() {
                 <h2 className="text-xs font-mono uppercase tracking-widest text-slate-400 mb-2">Selected Works</h2>
                 <p className="text-slate-300 text-sm">A collection of projects that push the boundaries of web development.</p>
               </div>
-              <a href="#archive" className="font-mono text-xs text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
+              <a href="projectpage" className="font-mono text-xs text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
                 View Archive &rarr;
               </a>
             </div>
@@ -307,27 +307,27 @@ export default function Page() {
                 <div className="p-4 bg-slate-900/50">
                   <div className="relative h-64 w-full rounded-xl overflow-hidden border border-slate-800">
                     <img
-                      src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
-                      alt="Nebula Finance Dashboard"
+                      src="https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788518392/mutpelimg_gl6cgp.jpg"
+                      alt="Mutpersonal Portfolio Project"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <div className="flex flex-wrap gap-2 mt-4 font-mono text-xs">
                     <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">React</span>
-                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">Chart.js</span>
-                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">PostgreSQL</span>
+                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">Node.js</span>
+                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">MongoDB</span>
                   </div>
                 </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold text-white">Nebula Finance</h3>
+                  <h3 className="text-xl font-bold text-white">Mutpel Household store</h3>
                   <p className="text-slate-400 text-sm leading-relaxed">
-                    A real-time cryptocurrency tracking platform with advanced sentiment analysis and predictive modeling features.
+                    A modern and responsive e-commerce web application built to deliver a seamless online shopping experience. This platform allows users to browse products, view detailed information, add items to their cart, and manage purchases efficiently.
                   </p>
                   <div className="flex items-center gap-6 pt-2 font-mono text-xs">
-                    <a href="#live" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
+                    <a href="https://mutpel-store.vercel.app/" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
                       <ExternalLink size={14} /> Live Demo
                     </a>
-                    <a href="#code" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
+                    <a href="https://github.com/DevAdelani/mutpel-store" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
                       <Code2 size={14} /> GitHub
                     </a>
                   </div>
@@ -339,27 +339,27 @@ export default function Page() {
                 <div className="p-4 bg-slate-900/50">
                   <div className="relative h-64 w-full rounded-xl overflow-hidden border border-slate-800">
                     <img
-                      src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800"
-                      alt="Echo CMS"
+                      src="https://res.cloudinary.com/dn7lrgxvl/image/upload/v1788518401/community-img_jfrsvb.jpg"
+                      alt="Community Issues Reporting Management"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <div className="flex flex-wrap gap-2 mt-4 font-mono text-xs">
-                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">Next.js</span>
-                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">Prisma</span>
-                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">AWS</span>
+                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">React.js</span>
+                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">Node.js</span>
+                    <span className="bg-slate-800/80 text-slate-300 px-3 py-1 rounded-full">MongoDB</span>
                   </div>
                 </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold text-white">Echo CMS</h3>
+                  <h3 className="text-xl font-bold text-white">Community Issues Reporting Management</h3>
                   <p className="text-slate-400 text-sm leading-relaxed">
-                    A headless content management system optimized for blazing-fast edge delivery and seamless developer experience.
+                    This is a platform that allows citizens to report community issues such as potholes, waste management problems, and broken infrastructure. Users can upload images, track issue status, and monitor progress, while administrators manage and resolve reports through a dedicated dashboard.
                   </p>
                   <div className="flex items-center gap-6 pt-2 font-mono text-xs">
-                    <a href="#live" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
+                    <a href="https://communityissuereportsystem.vercel.app/" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
                       <ExternalLink size={14} /> Live Demo
                     </a>
-                    <a href="#code" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
+                    <a href="https://github.com/DevAdelani/community-issue-reporting-system" className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition-colors">
                       <Code2 size={14} /> GitHub
                     </a>
                   </div>
