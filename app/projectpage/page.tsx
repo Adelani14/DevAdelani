@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import {
     Code2,
     MessageSquare,
@@ -128,7 +128,7 @@ export default function Page() {
                 href: 'https://github.com/Adelani14/DevAdelani'
             },
 
-           subdescription1: 'Responsive design across devices',
+            subdescription1: 'Responsive design across devices',
             subdescription2: 'Interactive and smooth UI animations',
             subdescription3: 'Project and technical skill showcase',
             subdescription4: 'Contact form integration',
@@ -145,9 +145,12 @@ export default function Page() {
 
     const [currentImage, setCurrentImage] = useState(0);
     const [showGallery, setShowGallery] = useState(false);
-    const [selectedProject, setSelectedProject] = useState(null);
 
-    const openGallery = (project, imageIndex = 0) => {
+    type Project = typeof projects[number];
+
+    const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+
+    const openGallery = (project: Project, imageIndex = 0) => {
         setSelectedProject(project);
         setCurrentImage(imageIndex);
         setShowGallery(true);
@@ -181,7 +184,7 @@ export default function Page() {
 
 
     useEffect(() => {
-        const handleKeyDown = (e) => {
+        const handleKeyDown = (e: KeyboardEvent) => {
             if (!showGallery) return;
 
             if (e.key === "ArrowRight") {

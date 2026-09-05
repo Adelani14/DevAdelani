@@ -119,7 +119,7 @@ export default function Page() {
       subdescription4: 'Order management ',
       subdescription5: 'Responsive design',
     },
-   
+
 
   ];
 
@@ -129,9 +129,12 @@ export default function Page() {
 
   const [currentImage, setCurrentImage] = useState(0);
   const [showGallery, setShowGallery] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null);
 
-  const openGallery = (project, imageIndex = 0) => {
+  type Project = typeof projects[number];
+
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+
+  const openGallery = (project: Project, imageIndex = 0) => {
     setSelectedProject(project);
     setCurrentImage(imageIndex);
     setShowGallery(true);
@@ -165,7 +168,7 @@ export default function Page() {
 
 
   useEffect(() => {
-    const handleKeyDown = (e) => {
+    const handleKeyDown = (e: KeyboardEvent) => {
       if (!showGallery) return;
 
       if (e.key === "ArrowRight") {
@@ -243,7 +246,7 @@ export default function Page() {
                 </div>
               </div>
 
-              
+
             </div>
           </section>
 
@@ -372,7 +375,7 @@ export default function Page() {
                   <span>Database</span>
                 </div>
                 <div className="space-y-4 font-mono text-sm">
-                  
+
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-slate-200">MongoDB</span>
@@ -518,7 +521,7 @@ export default function Page() {
 
                     {/* Card Buttons */}
                     <div className="grid grid-cols-2 gap-3 pt-1">
-                      
+
 
                       <a
                         href={project.secondaryBtn.href}
