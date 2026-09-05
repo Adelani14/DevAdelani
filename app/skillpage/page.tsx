@@ -15,7 +15,7 @@ import Footer from '@/components/layout/Footer';
 
 export default function Page() {
     return (
-        <div className="min-h-screen bg-[#050a12] text-slate-300 font-sans selection:bg-blue-500 selection:text-white relative overflow-x-hidden flex flex-col justify-between">
+        <div className="min-h-screen bg-[#060b13] text-slate-300 font-sans selection:bg-blue-500 selection:text-white flex flex-col justify-between">
 
             {/* Navigation Header */}
             <Header />
@@ -237,79 +237,15 @@ export default function Page() {
                                     <div className="h-full bg-purple-400 rounded-full w-[90%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
-                                    Query Optimization, Schema Design, Data Sharding
+                                    NoSQL, Aggregation Pipelines, Indexing, Data Modeling
                                 </p>
                             </div>
 
-                            {/* Skill 3 */}
-                            <div className="space-y-2">
-                                <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">Redis</span>
-                                    <span className="text-xs font-mono text-purple-300">75%</span>
-                                </div>
-                                <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-purple-400 rounded-full w-[75%]"></div>
-                                </div>
-                                <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
-                                    Caching Strategies, Message Queues, Real-time WebSockets
-                                </p>
-                            </div>
+                           
                         </div>
                     </div>
 
-                    {/* Card 3: Cloud & Infrastructure */}
-                    {/* <div className="bg-[#0a1220]/70 border-l-2 border-l-cyan-400 border-t border-r border-b border-slate-800/80 rounded-2xl p-6 sm:p-8 space-y-6">
-                        <div className="flex items-center gap-4">
-                            <div className="p-3 rounded-xl bg-slate-800/60 text-cyan-300 border border-slate-700/50">
-                                <Cloud size={22} />
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-bold text-white">Cloud & Infrastructure</h3>
-                                <p className="text-xs font-mono text-slate-400">Deployment & Automation</p>
-                            </div>
-                        </div>
-
-                        <div className="space-y-6 pt-2">
-                            <div className="space-y-2">
-                                <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">Docker & Kubernetes</span>
-                                    <span className="text-xs font-mono text-cyan-300">88%</span>
-                                </div>
-                                <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-cyan-400 rounded-full w-[88%]"></div>
-                                </div>
-                                <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
-                                    Containerization, Orchestration, Helm Charts, CI/CD Pipelines
-                                </p>
-                            </div>
-
-                            <div className="space-y-2">
-                                <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">AWS & GCP</span>
-                                    <span className="text-xs font-mono text-cyan-300">91%</span>
-                                </div>
-                                <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-cyan-400 rounded-full w-[91%]"></div>
-                                </div>
-                                <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
-                                    EC2, S3, Lambda, Cloud Run, Serverless Architecture, IAM
-                                </p>
-                            </div>
-
-                            <div className="space-y-2">
-                                <div className="flex justify-between items-center">
-                                    <span className="text-sm font-bold text-white">Terraform & Ansible</span>
-                                    <span className="text-xs font-mono text-cyan-300">82%</span>
-                                </div>
-                                <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-cyan-400 rounded-full w-[82%]"></div>
-                                </div>
-                                <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
-                                    Infrastructure as Code, Automated Provisioning
-                                </p>
-                            </div>
-                        </div>
-                    </div> */}
+                    
 
                     {/* Card 4: Workflow & Tools */}
                     <div className="bg-[#0a1220]/70 border-l-2 border-l-[#c7d2fe] border-t border-r border-b border-slate-800/80 rounded-2xl p-6 sm:p-8 space-y-6">
@@ -339,7 +275,7 @@ export default function Page() {
                             </div>
 
                             {/* Skill 2 */}
-                            <div className="space-y-2">
+                            {/* <div className="space-y-2">
                                 <div className="flex justify-between items-center">
                                     <span className="text-sm font-bold text-white">Jest & Cypress</span>
                                     <span className="text-xs font-mono text-indigo-200">89%</span>
@@ -350,16 +286,16 @@ export default function Page() {
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
                                     Unit Testing, E2E Testing, TDD, Code Coverage Analysis
                                 </p>
-                            </div>
+                            </div> */}
 
                             {/* Skill 3 */}
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center">
                                     <span className="text-sm font-bold text-white">Figma & Adobe CC</span>
-                                    <span className="text-xs font-mono text-indigo-200">84%</span>
+                                    <span className="text-xs font-mono text-indigo-200">74%</span>
                                 </div>
                                 <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                                    <div className="h-full bg-indigo-300 rounded-full w-[84%]"></div>
+                                    <div className="h-full bg-indigo-300 rounded-full w-[74%]"></div>
                                 </div>
                                 <p className="text-xs font-mono text-slate-400 leading-relaxed pt-1">
                                     Prototyping, Design Systems, SVG Optimization, Brand

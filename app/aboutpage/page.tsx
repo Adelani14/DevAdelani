@@ -16,7 +16,7 @@ import Aside from "@/components/layout/Aside";
 
 export default function Page() {
     return (
-        <div className="min-h-screen bg-[#070d19] text-slate-300 font-sans selection:bg-blue-500 selection:text-white relative overflow-x-hidden">
+        <div className="min-h-screen bg-[#060b13] text-slate-300 font-sans selection:bg-blue-500 selection:text-white flex flex-col justify-between">
 
 
             {/* Header */}
@@ -29,7 +29,7 @@ export default function Page() {
 
                 {/* Hero Section */}
                 <section className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-8">
-                    <div className="lg:col-span-7 space-y-6">
+                    <div className="lg:col-span-9 space-y-6">
                         <span className="text-xs font-mono uppercase tracking-widest text-blue-400 font-semibold">
                             Philosophy & Vision
                         </span>
@@ -64,7 +64,7 @@ export default function Page() {
                     </div>
 
                     {/* Hero Profile Image */}
-                    <div className="lg:col-span-5 flex justify-center">
+                    {/* <div className="lg:col-span-5 flex justify-center">
                         <div className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-full overflow-hidden border-2 border-blue-500/30 shadow-2xl shadow-blue-900/30">
                             <img
                                 src="https://res.cloudinary.com/dn7lrgxvl/image/upload/v1781626143/uploads/oaumcz7vft0n6sxtwzfb.jpg"
@@ -72,7 +72,7 @@ export default function Page() {
                                 className="w-full h-full object-cover contrast-110"
                             />
                         </div>
-                    </div>
+                    </div> */}
                 </section>
 
                 {/* Evolution of Craft Section */}

@@ -48,11 +48,10 @@ export default function Header() {
                 <div className="flex items-center gap-3">
 
                     <a
-                        href="/resume/ABDULSEMIU_SODEEQ_ADELANI_Junior_FullStack_developer_CV.pdf"
-                        download
+                        href="/contactpage"
                         className="hidden sm:block bg-[#93c5fd] hover:bg-blue-300 text-slate-950 font-mono font-semibold px-5 py-2 rounded-lg text-sm transition-all shadow-lg shadow-blue-500/20"
                     >
-                        Download Resume
+                        Contact Me
                     </a>
 
                     {/* Mobile Menu Button */}
